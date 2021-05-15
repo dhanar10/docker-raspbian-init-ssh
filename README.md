@@ -1,4 +1,4 @@
-# docker-raspbian-init-ssh
+# raspbian-init-ssh-docker
 
 A Raspbian (armhf) container anti-pattern with systemd init and ssh server to mimic a standalone headless system for development and testing purposes on PC (amd64)
 
@@ -16,8 +16,8 @@ A Raspbian (armhf) container anti-pattern with systemd init and ssh server to mi
 ### Deployment
 
 ```bash
-$ git clone https://github.com/dhanar10/docker-raspbian-init-ssh.git
-$ cd docker-raspbian-init-ssh
+$ git clone https://github.com/dhanar10/raspbian-init-ssh-docker.git
+$ cd raspbian-init-ssh-docker
 $ bash deploy.sh --name sandbox --hostname sandbox
 ```
 
