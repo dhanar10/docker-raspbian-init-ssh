@@ -17,7 +17,7 @@ A Raspbian (armhf) container anti-pattern with systemd init and ssh server to mi
 
 ```bash
 $ git clone https://github.com/dhanar10/docker-raspbian-init-ssh.git
-$ cd docker-ubuntu-init-ssh
+$ cd docker-raspbian-init-ssh
 $ bash deploy.sh --name sandbox --hostname sandbox
 ```
 
